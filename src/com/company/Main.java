@@ -14,7 +14,7 @@ public class Main {
 
         //Проверка copyFreshFruitFromBoxToBox
         Apple apple = new Apple();
-        Box<Fruit> apple1 = new Box<>();
+        Box<Apple> apple1 = new Box<>();
         apple1.put(apple);
         Box<Fruit> apple2 = new Box<>();
         apple1.get().setFresh(true);
